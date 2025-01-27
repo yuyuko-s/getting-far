@@ -1,0 +1,29 @@
+{
+	"geode": "4.2.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "cluckwork.gettingfar",
+	"name": "gettingfar",
+	"version": "v1.0.0",
+	"developer": "cluckwork",
+	"description": "",
+	"settings": {
+		"default-pct": {
+			"name": "Default Percentage",
+			"description": "The default far percentage for levels",
+			"type": "int",
+			"default": 75,
+			"min": 1,
+			"max": 100
+		},
+		"default-webhook": {
+			"name": "Default Webhook",
+			"description": "The default Discord webhook to hit when you're getting far",
+			"type": "string"
+		}
+	}
+}
