@@ -7,4 +7,5 @@ class Settings {
 public:
 	static int defaultPct();
 	static std::string defaultWebhook();
+	static std::string displayName();
 };

@@ -23,7 +23,15 @@
 		"default-webhook": {
 			"name": "Default Webhook",
 			"description": "The default Discord webhook to hit when you're getting far",
-			"type": "string"
+			"type": "string",
+			"default": "",
+			"filter": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ:/-1234567890"
+		},
+		"display-name": {
+			"name": "Custom Display Name",
+			"description": "The username to put on the embed (leave blank for your GD username)",
+			"type": "string",
+			"default": ""
 		}
 	}
 }
